@@ -14,7 +14,8 @@
 
 .flex-container {
     display: flex;
-    flex-flow: column-reverse wrap;
+    /* flex-flow: column-reverse wrap; */
+    justify-content: space-evenly;
     text-align: center;
     border: 1px solid gray;
 }
