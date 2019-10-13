@@ -1,0 +1,123 @@
+.pop {
+    display: flex;
+    margin: 5px;
+    background-color: aquamarine;
+    justify-content: space-around;
+}
+
+.kids {
+    margin: 10px;
+    background-color: rgb(235, 227, 227);
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.flex-container>div {
+    margin: 4px;
+    padding: 4px;
+}
+
+.flex-container2 {
+    display: flexbox;
+    /* flex-flow: column; */
+    text-align: center;
+    border: 1px solid blue;
+    margin: 4px;
+}
+
+.flex-container>div {
+    padding: 4px;
+    border: 1px solid blue;
+}
+
+.item {
+    /* width: 25%; */
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.item1 {
+    /* border: 1px solid red; */
+    /* width: 25%; */
+}
+
+.item2 {
+    /* width: 25%; */
+}
+
+.item3 {
+    /* border: 1px solid red; */
+    /* width: 25%; */
+}
+
+.item4 {
+    /* width: 25%; */
+}
+
+.parent {
+    background-color: #f073e1;
+    margin: 10px;
+    padding: 30px;
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+.div1 {
+    background-color: #f800db;
+    margin: 5px;
+}
+
+.div2 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+}
+
+.div3 {
+    background-color: #f800db;
+    margin: 5px;
+    height: 150px;
+}
+
+.div4 {
+    background-color: #f800db;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+.div5 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 200px;
+}
+
+.div6 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 200px;
+}
+
+html {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+}

@@ -1,0 +1,26 @@
+.fb {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+}
+
+.fb-child {
+    border: 1px solid red;
+    margin: 4px;
+    /* flex-grow: 1; */
+    flex-basis: 200px;
+}
+
+div.fb :first-child {
+    /* order: 110; */
+    flex-grow: 2;
+}
+
+div.fb :last-child {
+    order: 0;
+}
+
+div.fb :nth-child(2) {
+    order: 1230;
+}
