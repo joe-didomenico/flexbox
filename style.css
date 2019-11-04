@@ -1,3 +1,43 @@
+div.fbp10 {
+    display: flex;
+    justify-content: center;
+}
+
+div.container {
+    border: 1px black solid;
+    width: 500px;
+}
+
+div.form-row {
+    padding: 10px;
+    display: flex;
+}
+
+.form-row label {
+    padding-right: 0px;
+    flex: .3;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+.banner {
+    height: 400px;
+    width: 700px;
+    margin: 40px auto 40px auto;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+}
+
+.center-me {
+    color: #FFF;
+    font-size: 50px;
+    /* align-self: center; */
+    margin: auto;
+}
+
 .pop {
     display: flex;
     margin: 5px;
@@ -121,4 +161,53 @@ body {
     background-color: yellow;
     padding: 10px;
     margin: 0;
+}
+
+hr.sep {
+    /* margin: 20px; */
+    background-color: gray;
+    padding: 20px;
+}
+
+div#fbp1 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    /* align-items: stretch; */
+    justify-content: space-around;
+}
+
+div#fbc1 {
+    /* flex: 10%; */
+    display: flex;
+    flex-flow: column;
+    border: 1px solid red;
+    flex-basis: 15%;
+}
+
+div#fbc2 {
+    /* flex: 40%; */
+    display: flex;
+    flex-flow: column;
+    border: 1px solid red;
+}
+
+div#fbc3 {
+    /* flex: 3; */
+    /* flex: 10%; */
+    display: flex;
+    flex-flow: column-reverse;
+    border: 1px solid red;
+}
+
+div#fbc4 {
+    /* flex: 3; */
+    /* flex: 10%; */
+    border: 1px solid red;
+}
+
+div#fbc5 {
+    /* flex: 3; */
+    /* flex: 10%; */
+    border: 1px solid red;
 }
