@@ -11,15 +11,18 @@ div.container {
 div.form-row {
     padding: 10px;
     display: flex;
+    /* flex-flow: column; */
 }
 
 .form-row label {
-    padding-right: 0px;
+    padding-right: 10px;
     flex: .3;
+    /* order: 3; */
 }
 
 .form-row input {
     flex: 1;
+    /* order: 1; */
 }
 
 .banner {
@@ -40,16 +43,23 @@ div.form-row {
 
 .pop {
     display: flex;
+    /* flex-flow: column nowrap; */
+    flex-wrap: wrap;
     margin: 5px;
     background-color: aquamarine;
     justify-content: space-around;
 }
 
 .kids {
-    margin: 10px;
+    margin: 15px;
     background-color: rgb(235, 227, 227);
     border: 1px solid black;
-    padding: 4px;
+    padding: 25px;
+    flex: auto;
+}
+
+.pop :first-child {
+    /* flex-basis: 100px; */
 }
 
 .flex-container {
